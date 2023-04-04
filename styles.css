@@ -5,12 +5,13 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #333;
-    background-color: #F9FAF8;
+    background-color: #e6b3b3;
+    overflow-x: hidden;
 }
 
 /*HEADER*/
 .header {
-    background-color: #796757;
+    background-color: #333;
     display: flex;
     justify-content: space-between;
 }
@@ -39,7 +40,7 @@ body {
 
 /*CONT 1*/
 .container-1 {
-    background-image: url("./assets/30042022-v2-MINIMALIST-LANDSCAPE.png");
+    background-color: #333;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -90,9 +91,10 @@ body {
 
 .container-2 {
     text-align: center;
-    background-image: url("./assets/1111-mMINIMALIST-LANDSCAPE.png");
     background-size: cover;
     background-position: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .container-2 .cont-1 {
@@ -102,13 +104,18 @@ body {
 .container-2 .cont-1 img{
     width: 200px;
     height: 230px;
-    border: solid 6px rgb(20, 122, 255);
+    border: solid 6px #f87171;
     border-radius: 22px;
 }
 
 .container-2 .ilustration {
     display: flex;
     flex: 1;
+}
+
+.container-2 .ilustration p {
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .container-2 h2 {
@@ -124,7 +131,7 @@ body {
 
 /*CONT 3*/
 .container-3 {
-    background-image: url("./assets/banner-2-adorable-cats-has-happy-time-loving-day_75474-1161.avif");
+    background-color: #333;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -133,13 +140,13 @@ body {
 
 .container-3 blockquote {
     width: 890px;
-    color: #1F2937;
+    color: #ffffff;
     font-size: 36px;
     font-family: light italic, Arial, Helvetica, sans-serif, sans-serif;
 }
 
 .container-3 cite {
-    color: #000000;
+    color: #f87171;
     font-size: 30px;
     font-weight: 550;
     margin: 100px;
@@ -158,11 +165,12 @@ body {
 }
 
 .blue-container {
-    background-color: #3882F6;
+    background-color: #f87171;
     color: #ffffff;
     width: 700px;
     padding: 50px 90px;
     border-radius: 10px;
+    display: flex;
 }
 
 .blue-container .text-blue {
@@ -178,16 +186,14 @@ p {
 }
 
 .button {
-    background-color: #3882F6;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 90px;
 }
 
 .container-4 .button button {
     display: flex;
-    background-color: #3882F6;
+    background-color: #f06262;
     color: #F9FAF8;
     border-color: #F9FAF8;
     border-radius: 9px;
@@ -201,7 +207,7 @@ p {
 
 
 .footer {
-    background-color: #1F2937;
+    background-color: #333;
     display: flex;
     justify-content: center;
     color: #F9FAF8;
