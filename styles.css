@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #F9FAF8;
+}
+
+/*HEADER*/
+.header {
+    background-color: #796757;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin-right: 200px;
+}
+
+.header a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 70px;
+}
+
+/*HEADER*/
+
+
+
+/*CONT 1*/
+.container-1 {
+    background-image: url("./assets/30042022-v2-MINIMALIST-LANDSCAPE.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    text-align: left;
+    padding: 40px 70px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 0;
+}
+
+.text-signup {
+    width: 700px;
+}
+
+.container-1 img {
+    width: 800px;
+    height: 300px;
+}
+
+.text-signup h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-bottom: 0px;
+}
+
+.text-signup p {
+    margin-top: 0px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.text-signup button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 800;
+    font-size: 15px;
+    border-color:#1F2937; 
+    border-radius: 11px;
+    padding: 10px 30px;
+}
+
+/*CONT 1*/
+
+
+
+/*CONT 2*/
+
+.container-2 {
+    text-align: center;
+    background-image: url("./assets/1111-mMINIMALIST-LANDSCAPE.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.container-2 .cont-1 {
+    width: 100%;
+}
+
+.container-2 .cont-1 img{
+    width: 200px;
+    height: 230px;
+    border: solid 6px rgb(20, 122, 255);
+    border-radius: 22px;
+}
+
+.container-2 .ilustration {
+    display: flex;
+    flex: 1;
+}
+
+.container-2 h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-top: 0px;
+}
+
+/*CONT 2*/
+
+
+
+/*CONT 3*/
+.container-3 {
+    background-image: url("./assets/banner-2-adorable-cats-has-happy-time-loving-day_75474-1161.avif");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container-3 blockquote {
+    width: 890px;
+    color: #1F2937;
+    font-size: 36px;
+    font-family: light italic, Arial, Helvetica, sans-serif, sans-serif;
+}
+
+.container-3 cite {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 550;
+    margin: 100px;
+}
+
+/*CONT 3*/
+
+
+/*CONT 4*/
+
+.container-4 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 70px 10px;
+}
+
+.blue-container {
+    background-color: #3882F6;
+    color: #ffffff;
+    width: 700px;
+    padding: 50px 90px;
+    border-radius: 10px;
+}
+
+.blue-container .text-blue {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 700px;
+}
+
+.blue-container h4,
+p {
+    margin: 2px;
+}
+
+.button {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 90px;
+}
+
+.container-4 .button button {
+    display: flex;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    border-radius: 9px;
+    border-width: 2px;
+    padding: 13px 45px;
+    width: 140px;
+
+}
+
+/*CONT 4*/
+
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+    padding: 30px 10px;
+}
+
